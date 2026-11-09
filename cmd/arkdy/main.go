@@ -14,4 +14,6 @@ func main() {
 
 	cli.Run(ctx)
 
+	<-ctx.Done()
+
 }
